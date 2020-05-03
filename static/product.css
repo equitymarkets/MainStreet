@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap");
+
+
+body {
+	background: linear-gradient(180deg,#072cf6, #FFFFFF);
+	color: #000000;
+    font-family: "Lucida Sans Unicode", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    
+    background: linear-gradient(180deg,#FFFFFF, #072cf6);
+    border: 3px solid #000000;
+    border-radius: 5px;
+	
+}
+
+#img {
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+#mainContent {
+    padding: 20px;
+    text-align: justify;  
+}
+
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    object-fit: fill;
+    grid-template-columns: auto auto auto; 
+    grid-template-rows: auto;
+} 
+
+#picture-div {
+    text-align: center;
+    border-radius: 3px;
+  
+}
+#picture {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.container>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

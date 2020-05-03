@@ -1,0 +1,105 @@
+body {
+	background: linear-gradient(180deg,#072cf6, #FFFFFF) no-repeat;
+	color: #000000;
+    font-family: "Lucida Sans Unicode", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+textarea {
+    background-color: #d9d9f1;
+    height: 20vh;
+    width: 70vw;
+    
+    border: 1p1x solid #000000;
+}
+
+#container {
+    
+    background: linear-gradient(135deg,#FFFFFF, rgb(7, 44, 246)); 
+    /* margin: 3%; */
+    padding: 3%;  
+    border: 3px solid #000000;
+    border-radius: 5px;
+    /* text-align: center; */
+	
+}
+#form-body {
+    justify-items: center;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 45% 45% ;
+    grid-template-areas: 
+        "n p"
+        "e s"
+        "i r"
+        "c c"
+        ". t"
+}
+@media only screen and (max-width: 500px){
+    #form-body {
+        justify-items: left;
+        height: 100%;
+        display: grid;
+        padding: 5vw;
+        grid-template-columns: 90%;
+        grid-template-areas: 
+            "n"
+            "p"
+            "e"
+            "s"
+            "i"
+            "r"
+            "c"
+            "t"
+    }
+}
+
+#name {
+    grid-area: n;
+}
+
+#phone {
+    grid-area: p;
+}
+
+#email {
+    grid-area: e;
+}
+
+#social {
+    grid-area: s;
+}
+
+#interest {
+    grid-area: i;
+}
+ 
+#reference {
+    grid-area: r;
+}
+
+#comments {
+    grid-area: c;
+    
+    margin: 3%;
+}
+
+#submit {
+    grid-area: t;
+    
+    
+    grid-auto-flow: right;
+    height: 2.5em;
+    width: 10em;
+    font: 2em;
+}
+
+button[type=submit] {
+    
+    font: 2em;
+    text-align: center;
+    background-color: #F2F906;
+}

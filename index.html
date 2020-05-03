@@ -43,14 +43,14 @@
         </div>
         <div class="phone-box">
           <p id="spectext">757-539-8639</p>
-          <h1><p>W</p></h1>
+          
         </div>
         
         <div class="compliance-box"><img src="images/EPA Lead Logo.jpg" width="100%" height="100%" alt="EPA Lead Logo">
         <img src="images/Energy Star Logo.jpg" alt="Energy Star Logo" width="100%" height="100%"></div> 
         
         <div id="copyright">
-          <p>Copyright &#169; 2020 W.E. Price & Associates, Incorporated. by <a href="https://www.laserstudio.io">laserstudio.io</a></p>
+          <p>Copyright &#169; 2020 W.E. Price & Associates, Incorporated.<br> by <a href="https://www.laserstudio.io">laserstudio.io</a></p>
         </div> <!-- end #copyright -->
       </nav><!-- end #sidebar1 -->
 

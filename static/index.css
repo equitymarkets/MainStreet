@@ -1,42 +1,58 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Noto+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap");
+/*
+    L        A     SSSS   EEEEE   RRR     DD    EEEEE   SSSS   IIIII     GG     N   N     IIIII     OO
+    L       A A    S      E       R  R    D D   E       S        I      G  G    NN  N       I      O  O
+    L      AAAAA    SS    EEE     RRR     D D   EEE      SS      I      G       N NNN       I      O  O
+    L     A     A     S   E       R  R    D D   E          S     I      G GG    N  NN       I      O  O
+    LLLL A       A SSSS   EEEEE   R   R   DD    EEEEE   SSSS   IIIII     GG     N   N  O  IIIII     OO
+*/
+
+/*Copyright 2020*/
+/*For questions contact derek@laserdesign#io*/
+:root {
+	--white: rgb(255, 255, 255);
+	--yellow: rgb(242, 249, 6);
+	--blue: rgb(7, 44, 246);
+	--blue-opacity: rgb(7, 44, 246, .85);
+	--black: rgb(0, 0, 0);
+};
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Karla:wght@700&family=Noto+Sans&family=Open+Sans+Condensed&display=swap");
 
 body  {
-	color: #FFFFFF;
+	color: var(--white);
 	font-family: "Noto Sans", sans-serif;
 	background-image: url(../images/bricks.jpg);
 }
 
 a:link {
-	color: #FFFFFF;
+	color: var(--white);
 	text-decoration: none;
 }
 
 a:hover {
-	color:#F2F906;
+	color:var(--yellow);
 }
 
 a:visited {
-	color: #FFFFFF;
+	color: var(--white);
 }
 
 a:visited:hover {
-	color: #F2F906;
+	color: var(--yellow);
 }
 
 a:active {
-	color:#F2F906;
+	color:var(--yellow);
 }
 
 #container {
 	display: grid;
-	border: 1px solid #000000; 
+	border: 1px solid var(--black); 
 	border-radius: 5px;
 	text-align: center;
 	grid-template-columns: 1fr 3fr 1fr;
 	grid-template-rows: auto;
-	background: linear-gradient(135deg,#FFFFFF, rgb(7, 44, 246)); 
+	background: linear-gradient(135deg, var(--white), var(--blue)); 
 	height: auto;
 } 
 
@@ -69,7 +85,7 @@ a:active {
 	padding: 1%;  
 	grid-column-start: 1;
 	grid-column-end: 4;	
-	background-color: rgb(7, 44, 246);
+	background-color: var(--blue);
 	border-radius: 5px;
 	grid-gap: 10px;
 	object-fit: fill;
@@ -77,11 +93,10 @@ a:active {
 }
 
 #heading_text {
-	
 	font-size: 2.8vw;
 	/* font-family: "Lucida Sans Unicode", sans-serif; */
 	font-family: 'Open Sans Condensed', sans-serif;
-	border: 1px solid #FFFFFF;
+	border: 1px solid var(--white);
 	border-radius: 5px;
 	height: 100%;
 	font-weight: bold;
@@ -103,16 +118,16 @@ a:active {
 	
 	margin: 1vw;
 	height: auto;
-	background-color: rgb(7, 44, 246, .85);
+	background-color: var(--blue-opacity);
 	border-radius: 5px;
 }
 #jsnews {
-	color: #000000;
+	color: var(--black);
 	margin-left: 1vw;
 	margin-right: 1vw;
-	border: 2px solid #000000;
+	border: 2px solid var(--black);
 	border-radius: 5px;
-	background-color: #FFFFFF;
+	background-color: var(--white);
 	height: 40vh;
 	width: auto;
 	margin-top: 5vh;
@@ -120,15 +135,15 @@ a:active {
 }
 
 #navi_main {
-	border-bottom: 1px solid rgb(255, 255, 255);
+	border-bottom: 1px solid var(--white);
 	min-height: 3em;
 	padding: 0;
 }
 
 #mainContent {
 	margin: 1vw;
-	color: rgb(255, 255, 255);
-	background-color: rgb(7, 44, 246, .85); 
+	color: var(--white);
+	background-color: var(--blue-opacity); 
 	border-radius: 5px;
 	height: auto;
 } 
@@ -175,7 +190,7 @@ a:active {
 
 #sidebar2 {
 	margin: 1vw;
-	background-color:  rgb(7, 44, 246, .85);
+	background-color:  var(--blue-opacity);
 	border-radius: 5px;
 	height: auto;
 }
@@ -186,7 +201,7 @@ a:active {
 }
 
 hr {
-	border: 1px solid #FFFFFF;
+	border: 1px solid var(--white);
 }
 
 h1 {
@@ -198,26 +213,26 @@ h1 + p {
 
 h2 {
 	font-size: 32px;
-	color: #FFFFFF;
+	color: var(--white);
 }
 
 #spectext {
 	font-family: 'Open Sans Condensed', sans-serif; 
-	color: #FFFFFF;
+	color: var(--white);
 } 
 
 #paratext {
 	font-family: "Noto Sans", sans-serif;
-	color: #FFFFFF;
+	color: var(--white);
 }
 
 .social-box {
 	
 	margin-bottom: 5vh;
-    display: grid;
-    object-fit: fill;
-    grid-template-columns: auto auto auto auto auto auto; 
-    grid-template-rows: 100%;
+    	display: grid;
+    	object-fit: fill;
+    	grid-template-columns: auto auto auto auto auto auto; 
+    	grid-template-rows: 100%;
 } 
 
 .compliance-box {
@@ -231,8 +246,3 @@ h2 {
 .phone-box {
 	margin-bottom: 5vh;
 }
-
-
-
-
-

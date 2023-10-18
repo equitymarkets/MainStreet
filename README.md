@@ -3,6 +3,8 @@
 
 ## Ongoing original 2010 exterior contractor website with updates! 
 
+https://equitymarkets.github.io/MainStreet/
+
 ### Originally prototyped in 2010, this local Suffolk, VA business was designed first in Adobe Dreamweaver. As with all my works, I continued to update and improve the site over time, eventually getting away from a Dreamweaver development environment as I learned more about design in CSS. 
 
 ### During the early years the site was live as wepricewindows.com. The first task entailed designing a PHP contact page so that customers could easily reach out to the business by writing emails. Also during this time an additional focus was on SEO and building out an embedded online presence from an existing landing page that was included in the company's advertising package with the local phone book. The second focus, also ultimately on SEO, was a social media presence. Active social media accounts were created among 6-7 of the most popular social media sites at the time (the relevant remaining ones being Facebook and X a.k.a. Twitter), with backlinks to the site, and updated often as microblogs to reflect jobs and projects that the company was currently undertaking. Next came a series of small tasks including online directory updates, reputation management, and picking strategic industry-specific Google adwords.
